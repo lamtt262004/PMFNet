@@ -183,26 +183,8 @@ The model achieves competitive results on polyp segmentation benchmarks:
 | ETIS-LaribPolypDB | 0.91+ | 0.84+ |
 | CVC-300 | 0.92+ | 0.85+ |
 
-## Citation
 
-If you use this code in your research, please cite:
 
-```bibtex
-@article{pmfnet2024,
-  title={PMF-Net: Polyp Segmentation with Multi-scale Feature Fusion},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Acknowledgments
 
