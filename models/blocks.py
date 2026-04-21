@@ -252,9 +252,9 @@ class GAB(nn.Module):
         x1 = self.conv_out(torch.cat((x1_1, x1_2, x1_3), dim=1))
 
         # Group 2
-        x2_1 = self.g1_1(torch.cat((xh[1], xl[1], mask), dim=1))
-        x2_2 = self.g1_2(torch.cat((xh[1], xl[1], mask), dim=1))
-        x2_3 = self.g1_3(torch.cat((xh[1], xl[1], mask), dim=1))
+        x2_1 = self.g2_1(torch.cat((xh[1], xl[1], mask), dim=1))
+        x2_2 = self.g2_2(torch.cat((xh[1], xl[1], mask), dim=1))
+        x2_3 = self.g2_3(torch.cat((xh[1], xl[1], mask), dim=1))
         x2 = self.conv_out(torch.cat((x2_1, x2_2, x2_3), dim=1))
 
         # Concatenate results from both groups
